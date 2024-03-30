@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include<string.h>    //strlen
-#include<sys/socket.h>
-#include<arpa/inet.h> //inet_addr
-#include<unistd.h>    //write
-#include<netdb.h>
-#define IP "141.114.205.43"
-#define PORT 8003
+#include <string.h> //strlen
+#include <sys/socket.h>
+#include <arpa/inet.h> //inet_addr
+#include <unistd.h>    //write
+#include <netdb.h>
+#define IP "127.0.0.1"
+#define PORT 8255
 
 struct sockaddr_in sa ;
 int main()

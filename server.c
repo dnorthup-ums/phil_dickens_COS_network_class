@@ -1,11 +1,11 @@
-#include<stdio.h>
-#include<string.h>
-#include<sys/socket.h>
-#include<arpa/inet.h>
-#include<unistd.h>
-#include<netdb.h>
-#define IP "141.114.205.43"
-#define PORT 8003
+#include <stdio.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <netdb.h>
+#define IP "127.0.0.1"
+#define PORT 8255
 
 int send_size, recv_size ;
 int main(int argc , char *argv[])
