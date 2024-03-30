@@ -14,7 +14,7 @@ int main()
           char my_buf[1024] ;
           char *msg = "I am your main socket squeeze" ;
 
-         sprintf(my_buf, "%s", "YO BRO!\n") ;
+  snprintf(my_buf, sizeof(my_buf), "%s", "YO BRO!\n");
 
          int my_sock = socket(AF_INET, SOCK_STREAM, 0) ;
          sa.sin_family   = AF_INET ;

@@ -38,7 +38,7 @@ int main(int argc , char *argv[])
 
     recv_size = recv(client_sock, client_message , 32 , 0) ;
     printf("Got this from Client %s\n", client_message) ;
-    sprintf(client_message,"How Now MONJO1! Yo.\n") ; 
+    snprintf(client_message, sizeof(client_message), "How Now MONJO1! Yo.\n");
     send_size = send(client_sock , client_message , 32, 0);
     return 0;
 }
