@@ -15,8 +15,8 @@ int main(int argc , char *argv[])
     struct sockaddr_in server , client, my_addr;
     char client_message[20000];
 
-    socket_desc = socket(AF_INET , SOCK_STREAM , 0);
-    client_sock = socket(AF_INET , SOCK_STREAM , 0);
+    socket_desc = socket(AF_INET, SOCK_STREAM, 0);
+    //client_sock = socket(AF_INET, SOCK_STREAM, 0);
     
     server.sin_family = AF_INET;
     server.sin_port = htons(PORT);

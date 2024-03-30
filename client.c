@@ -10,9 +10,9 @@
 
 struct sockaddr_in sa ;
 int main()
-        { int err;
-          char my_buf[1024] ;
-          char *msg = "I am your main socket squeeze" ;
+  //int err;
+  char my_buf[1024];
+  //char *msg = "I am your main socket squeeze";
 
   snprintf(my_buf, sizeof(my_buf), "%s", "YO BRO!\n");
 
